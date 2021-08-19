@@ -9,7 +9,7 @@ import (
 
 func main() {
 	var err error
-	mongoURL := os.Getenv("MONGO_URL")
+	mongoURL := "mongo-service"
 	if mongoURL == "" {
 		log.Fatal("MONGO_URL not provided")
 	}
