@@ -1,6 +1,6 @@
-/target
-/frontend/node_modules
-/frontend/build
+minikube/reactjavamysql/target
+minikube/reactjavamysql/frontend/node_modules
+minikube/reactjavamysql/frontend/build
 
 ### Eclipse ###
 
