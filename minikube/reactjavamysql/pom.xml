@@ -58,15 +58,15 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
 
-            <plugin>
+            <!-- <plugin>
                 <groupId>com.github.eirslett</groupId>
                 <artifactId>frontend-maven-plugin</artifactId>
                 <version>1.6</version>
                 <configuration>
                     <workingDirectory>frontend</workingDirectory>
                     <installDirectory>target</installDirectory>
-                </configuration>
-                <executions>
+                </configuration> -->
+                <!-- <executions>
                     <execution>
                         <id>install node and npm</id>
                         <goals>
@@ -95,11 +95,11 @@
                             <arguments>run build</arguments>
                         </configuration>
                     </execution>
-                </executions>
-            </plugin>
+                </executions> -->
+            <!-- </plugin> -->
 
-            <plugin>
-                <artifactId>maven-antrun-plugin</artifactId>
+            <!-- <plugin> -->
+                <!-- <artifactId>maven-antrun-plugin</artifactId>
                 <executions>
                     <execution>
                         <phase>generate-resources</phase>
@@ -115,7 +115,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin> -->
         </plugins>
     </build>
 </project>
